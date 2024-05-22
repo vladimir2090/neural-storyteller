@@ -1,5 +1,7 @@
 # neural-storyteller
 
+2.7 .................................................................
+
 neural-storyteller is a recurrent neural network that generates little stories about images. This repository contains code for generating stories with your own images, as well as instructions for training new models.
 
 <img src="https://github.com/ryankiros/neural-storyteller/blob/master/images/ex1.jpg" height="220px" align="left">
