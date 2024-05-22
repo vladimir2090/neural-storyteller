@@ -74,7 +74,7 @@ def encode_sentences(model, X, verbose=False, batch_size=128):
     # Get features. This encodes by length, in order to avoid wasting computation
     for k in ds.keys():
         if verbose:
-            print k
+            print(k)
         numbatches = len(ds[k]) / batch_size + 1
         for minibatch in range(numbatches):
             caps = ds[k][minibatch::numbatches]
